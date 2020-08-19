@@ -1,0 +1,31 @@
+{
+  "name": "svelte-use-tippy.js",
+  "version": "1.0.0",
+  "description": "Use tippy.js in svelte",
+  "main": "index.js",
+  "repository": "https://github.com/wareset/svelte-use-tippy.js.git",
+  "author": "wareset <git@wareset.com>",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md",
+    "Tippy.svelte",
+    "use.js"
+  ],
+  "keywords": [
+    "svelte",
+    "plugin",
+    "component",
+    "popper",
+    "popperjs",
+    "tippy",
+    "tippy.js"
+  ],
+  "peerDependencies": {
+    "svelte": "^3.x"
+  },
+  "dependencies": {
+    "tippy.js": "^6.2.6"
+  }
+}
