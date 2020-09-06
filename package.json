@@ -21,7 +21,7 @@
     "tippy.js"
   ],
   "peerDependencies": {
-    "svelte": "^3.24.1"
+    "svelte": "3.x"
   },
   "dependencies": {
     "tippy.js": "^6.2.6"
