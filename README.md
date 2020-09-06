@@ -10,18 +10,29 @@ npm i svelte-use-tippy.js ## yarn add svelte-use-tippy.js
 
 ## Usage
 
+import default styles:
+
+```js
+// main.js
+import 'tippy.js/dist/tippy.css';
+```
+
+usage 'use' directive:
+
 ```svelte
 <script>
+// App.svelte
 import { tippy } from 'svelte-use-tippy.js';
 </script>
 
 <button use:tippy={{ content: 'My tooltip!' }}>target</button>
 ```
 
-or
+or usage component:
 
 ```svelte
 <script>
+// App.svelte
 import Tippy from 'svelte-use-tippy.js';
 
 let targetEl;
@@ -35,10 +46,14 @@ let targetEl;
 </Tippy>
 ```
 
+or
+
 ```svelte
 <button>target for tippy</button>
 <Tippy props={{ trigger: 'click' }} target="prev">My tooltip!</Tippy>
 ```
+
+or
 
 ```svelte
 <Tippy props={{ trigger: 'click' }} target="next">My tooltip!</Tippy>
