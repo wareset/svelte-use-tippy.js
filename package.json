@@ -17,13 +17,11 @@
     "svelte",
     "plugin",
     "component",
-    "popper",
     "popperjs",
-    "tippy",
     "tippy.js"
   ],
   "peerDependencies": {
-    "svelte": "^3.x"
+    "svelte": "^3.24.1"
   },
   "dependencies": {
     "tippy.js": "^6.2.6"

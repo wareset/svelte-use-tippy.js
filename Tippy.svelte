@@ -52,6 +52,6 @@
 
 <div bind:this={tooltip}>
   <slot>
-    {@html _content || 'SvelteTippy'}
+    {@html _content || ''}
   </slot>
 </div>

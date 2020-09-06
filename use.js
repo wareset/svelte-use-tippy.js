@@ -1,6 +1,6 @@
-const tippy = require('tippy.js');
+import tippy from 'tippy.js';
 
-module.exports = function use(node, options = {}) {
+export default function use(node, options = {}) {
   let Tippy;
 
   function destroy() {
@@ -16,4 +16,4 @@ module.exports = function use(node, options = {}) {
 
   update(options);
   return { update, destroy, Tippy };
-};
+}
