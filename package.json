@@ -1,6 +1,6 @@
 {
   "name": "svelte-use-tippy.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use tippy.js in svelte",
   "main": "index.js",
   "repository": "https://github.com/wareset/svelte-use-tippy.js.git",

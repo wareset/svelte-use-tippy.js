@@ -17,7 +17,7 @@ import default styles:
 import 'tippy.js/dist/tippy.css';
 ```
 
-usage 'use' directive:
+'use' directive:
 
 ```svelte
 <script>
@@ -28,7 +28,7 @@ import { tippy } from 'svelte-use-tippy.js';
 <button use:tippy={{ content: 'My tooltip!' }}>target</button>
 ```
 
-or usage component:
+or component:
 
 ```svelte
 <script>
