@@ -1,6 +1,6 @@
 import tippy from 'tippy.js';
 
-export default function use(node, options = {}) {
+function use(node, options = {}) {
   let Tippy;
 
   function destroy() {
@@ -15,5 +15,7 @@ export default function use(node, options = {}) {
   }
 
   update(options);
-  return { update, destroy, Tippy };
+  return { update, destroy, Tippy }
 }
+
+export default use;

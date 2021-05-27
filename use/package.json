@@ -1,0 +1,8 @@
+{
+  "main": "index",
+  "module": "index.mjs",
+  "files": [
+    "index.js",
+    "index.mjs"
+  ]
+}
